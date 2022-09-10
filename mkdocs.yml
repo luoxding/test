@@ -1,7 +1,5 @@
 ---
 site_name: '我的笔记'
-<<<<<<< HEAD
-=======
 site_url: 'https://docs.rockylinux.org'
 #docs_dir: 'docs/docs'
 repo_url: https://github.com/rocky-linux/documentation
@@ -47,7 +45,7 @@ theme:
 
 
 plugins:
-  - search
+ #- search
 #          de: Deutsch
 #          fr: Français
 #          es: Español
@@ -115,4 +113,3 @@ plugins:
 
 
 #copyright: Copyright &copy; 2021 The Rocky Enterprise Software Foundation
->>>>>>> origin
