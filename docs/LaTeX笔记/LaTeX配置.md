@@ -1,0 +1,3 @@
+- [[vscode]]
+- [[latexmk]]
+- [[latexmkrc]]
