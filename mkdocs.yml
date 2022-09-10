@@ -1,1 +1,118 @@
-site_name: My Docs
+---
+site_name: '我的笔记'
+<<<<<<< HEAD
+=======
+site_url: 'https://docs.rockylinux.org'
+#docs_dir: 'docs/docs'
+repo_url: https://github.com/rocky-linux/documentation
+repo_name: rocky-linux/documentation
+edit_uri: 'edit/main/docs/'
+
+theme:
+  name: material
+# custom_dir: theme
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+#    - navigation.tracking
+#    - navigation.sections
+#    - navigation.expand
+#    - navigation.indexes
+#    - toc.follow
+#    - toc.integrate
+ #logo: assets/linux.png
+      #logo: material/linux
+  icon:
+#   logo: :simple-suse:
+    logo: logo 
+   #logo: material/book-heart 
+   #logo: fontawesome/brands/suse 
+#   logo: fontawesome/classic/house
+#   logo: fontawesome/sharp/bird
+  favicon: material/book-heart
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: black
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: black
+
+
+plugins:
+  - search
+#          de: Deutsch
+#          fr: Français
+#          es: Español
+#          it: Italian
+#          ja: 日本語
+#          sv: Svenska
+#          pl: Polish
+#          pt: Português
+#          ru: Russian
+          #  - git-revision-date-localized:
+          #      type: date
+          #  - redirects:
+          #      redirect_maps:
+          #        'guides/add_mirror_manager.md': 'guides/mirror_management/add_mirror_manager.md'
+   #tags_file: tags.md #自动化环境不能使用标签
+
+#需要文件存在，否则警告
+#extra_javascript:
+#    - javascripts/shortcuts.js
+#extra_css:
+#    - stylesheets/extra.css
+
+#    - name: Français
+#      link: ./fr/
+#      lang: fr
+#    - name: Deutsch
+#      link: ./de/
+#      lang: de
+#    - name: Español
+#      link: ./es/
+#      lang: es
+#    - name: Italian
+#      link: ./it/
+#      lang: it
+#    - name: 日本語
+#      link: ./ja/
+#      lang: ja
+#    - name: Polish
+#      link: ./pl/
+#      lang: pl
+#    - name: Português
+#      link: ./pt/
+#      lang: pt
+#    - name: Svenska
+#      link: ./sv/
+#      lang: sv
+#    - name: Russian
+#      link: ./ru/
+#      lang: ru
+
+#pages:
+#- ['docs/docs/index.md', 'Introduction']
+#- ['docs/docs/user-guide.md', 'User Guide']
+#- ['docs/docs/about.md', 'About']
+
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/rocky_linux
+    - icon: fontawesome/brands/github
+      link: https://github.com/luoxding
+    - icon: fontawesome/brands/gitlab
+      link: https://git.rockylinux.org
+    - icon: material/home
+      link: https://rockylinux.org
+
+
+#copyright: Copyright &copy; 2021 The Rocky Enterprise Software Foundation
+>>>>>>> origin
